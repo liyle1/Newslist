@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h2,ul{margin:0;
+}
+
+div{ 
+width:264px;
+margin-left:20px;
+margin-top:20px;
+}
+
+h2{
+	background:url(../images/h-top.png) no-repeat;
+	height: 32px;
+	line-height:35px;
+	padding-left:35px;
+	color:#FFF;
+	font-weight:normal;
+	}
+
+a{ text-decoration:none;
+	color:#6666666;
+	background: url(../images/dot.png) no-repeat;
+	background-position:5px center;
+	padding-left:15px;
+}
+
+li a:hover {color: #F93;
+	background: url(../images/result.png) no-repeat;
+	background-position:5px 5px;
+}
+	
+ul{
+	background: url(../images/h-middle.png) repeat-y;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	}
+
+li{
+	border-bottom: 1px dashed #33CCFF;
+	list-style-type: none;
+	line-height: 1.5em;
+	text-indent: 10;
+	font-size: 12px;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+li a {
+	color: #666666;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.footer{
+	background:url(../images/h-bottom.png) no-repeat;
+	height:5px;
+	margin:0;
+	margin-left:20px;
+	}
